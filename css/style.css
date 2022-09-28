@@ -6,7 +6,9 @@
     --gray-dark: #6E727D;
     --black-light: #2F323B;  
 }
-
+*{
+    box-sizing:border-box;
+}
 body{
     font-family: 'Poppins', sans-serif!important;
     font-size: 18px;
@@ -24,12 +26,22 @@ body{
 section{
     margin-top: 150px;
 }
+h1{
+    font-size: 2rem!important;
+    font-weight: 600!important;
+    margin-bottom: 90px!important;
+    text-align: center;
+}
 .sec-1 h2{
     margin-bottom: 2rem;
+}
+.texto-introducao{
+    width: 780px;
 }
 .texto-introducao p{
     font-weight: 600;
     font-size: 2rem;
+    margin-bottom: 3rem;
 }
 .texto-introducao p i{
     background-color: var(--gray-dark);
@@ -50,17 +62,41 @@ section{
 .imagem-introducao{
     width: 500px;
     height: 350px;
+    margin-left: 150px;
 }
 .imagem-introducao img{
     width: 400px;
 }
 
-
-h1{
-    font-size: 2rem!important;
-    font-weight: 600!important;
-    margin-bottom: 90px!important;
-    text-align: center;
+/*Página sobre nós*/
+.historia p{
+    width: 1100px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.card-equipe{
+    width: 1100px;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 45px;
+    background-color: var(--gray-light);
+    border-radius:5px;
+}
+.card-equipe h1{
+    font-weight: 600;
+    font-size: 3rem!important;
+    color: var(--black-light);
+}
+.foto-equipe{
+    width: 250px;
+    height: 250px;
+    background-color: var(--gray-dark);
+    border-radius: 200px;
 }
 
+footer{
+    height: 200px;
+    background-color: var(--black-light);
+}
 
